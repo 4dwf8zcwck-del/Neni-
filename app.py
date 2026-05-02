@@ -8,7 +8,7 @@ st.set_page_config(page_title="Neni AI", layout="centered")
 # Ubaci svoj API ključ ovde
 API_KEY = "AIzaSyBXcOfYFRNj_NcqogVUD_nibhhlzL8CVWk"
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 # --- STIL I LICE ---
 st.markdown("""
