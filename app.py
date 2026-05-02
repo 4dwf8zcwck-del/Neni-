@@ -39,7 +39,6 @@ st.session_state.step = "welcome"
 st.session_state.violations = []
 st.session_state.mode = None
 st.session_state.last_active = time.time()
-
 # Spisak dozvoljenih imena
 DOZVOLJENA_IMENA = ["Sava", "Hana", "Leo", "Andrea", "Acko", "Mila", "Lara", "Nemanja 1", "Marijo", "Lenka", "Jakša", "Maša", "Nemanja 2"]
 
